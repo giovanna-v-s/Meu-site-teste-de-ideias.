@@ -1,0 +1,71 @@
+body {
+    background-color:#7201DC;
+    color: rgb(137, 232, 245) ;
+    margin: 0;
+}
+
+header{
+    text-align:center;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+nav a{
+    background-color: #C400DB;
+    color: rgb(137, 232, 245) ;
+    padding: 10px 55px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+main{
+    max-width:750px;
+    margin:0 auto;
+    text-align:center;
+}
+
+.redes{
+    display:flex;
+    justify-content: center;
+    gap:20px; 
+}
+
+.redes a{
+    background-color:#C400DB;
+    color:rgb(137, 232, 245) ;
+    padding:10px 55px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.lista ul{
+    max-width:600px;
+    margin: 0 auto;
+    padding-left: 0;
+    text-align: left;
+    list-style: none;
+}
+.lista li{
+    margin-bottom: 12px;
+}
+.lista li::before{
+    content:"●";
+    font-size: 18px;
+    margin-right:10px;
+    color:#C400DB;
+}
+
+.imagem{
+    width:300px;
+    height:300px;
+    margin: 20px auto;
+    background-image: url("Desenvolvedora em um cenário digital.png");
+    background-size: cover;
+    background-position: center;
+}
