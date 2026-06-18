@@ -6,15 +6,15 @@
         <meta name = "description" content="Minhas Ideias de projetos para site">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Ideias</title>
-        <link rel="stylesheet" href="style.css">
+        <link id="tema" rel="stylesheet" href="style.css">
     </Head>
     <body>
         <header>
         <h1> Ideias Futuras</h1>
         <nav>
-            <a class="botao-sobre" href="#sobre">Sobre</a>
-            <a class="botao-contato" href="#contato">Contato</a>
-            <a class="botao-ideias" href="#ideias">Ideias</a>
+            <a class="botoes"  href="#sobre">Sobre</a>
+            <a class="botoes" href="#contato">Contato</a>
+            <a class="botoes" href="#ideias">Ideias</a>
         </nav>
         </header>
 
@@ -47,12 +47,16 @@
         </ul>
         </div>
         </section>
-
         <div class="imagem"></div>
-    
+        <div class="temas">
+        <button class="botoes" onclick="trocarTema('style.css')">Tema 1</button>
+        <button class="botoes" onclick="trocarTema('style2.css')">Tema 2</button>
+        <button class="botoes" onclick="trocarTema('style3.css')">Tema 3</button>
+        </div>
         </main>
         <footer>
             <p>&copy; 2026 Giovanna V. Santos. Todos os direitos reservados.</p>
         </footer>
+        <script src="script.js"></script>
     </body>
 </html>
